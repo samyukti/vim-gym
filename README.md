@@ -22,6 +22,9 @@ Compare the repositories
 
 Open vim, and apply the changes to files in vim-gym (within the allotted time)
 
+    $ cd vim-gym
+    $ vim
+
 Once the changes are complete, make sure that the application is working
 
     $ bundle exec rspec
