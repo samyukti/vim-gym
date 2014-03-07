@@ -1,0 +1,20 @@
+.row
+  .col-md-3
+  .col-md-6
+    %form.form-horizontal{id: "form_emi", data: {action: "/emi.json"}}
+      %legend EMI
+      .form-group
+        %label.col-sm-3.control-label{for: "principal"} Principal
+        .col-sm-9
+          %input.form-control{type: "text", id: "principal"}
+        %label.col-sm-3.control-label{for: "principal"} Rate
+        .col-sm-9
+          %input.form-control{type: "text", id: "rate"}
+        %label.col-sm-3.control-label{for: "principal"} Term
+        .col-sm-9
+          %input.form-control{type: "text", id: "term"}
+      %button.btn.btn-default.pull-right{type: "submit", id: "get_emi"} Calculate
+.row
+  .col-md-3
+  .col-md-6
+    %h2.results.text-center
