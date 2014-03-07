@@ -1,6 +1,6 @@
 # Vim Gym
 
-An exercise to practice gym, while learning Ruby, Sinatra, JavaScript and Haml
+An exercise to practice Vim, while learning Ruby, Sinatra, JavaScript and Haml
 
 # Instructions
 
